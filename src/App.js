@@ -31,7 +31,7 @@ class App extends React.Component {
         <h1>{this.state.topText}</h1>
         <img alt="fuck" className="widify" src={this.state.randomImg}></img>
         <h1>{this.state.bottomText}</h1>
-
+        <a href="https://maxjann.com">Jann Software</a>
       </div>
     )
   }

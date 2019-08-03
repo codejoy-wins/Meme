@@ -32,12 +32,16 @@ class App extends React.Component {
             <option value="pink">Pink</option>
             <option value="red">Red</option>
             <option value="orange">Orange</option>
+            <option value="plum">Plum</option>
+            <option value="coral">Coral</option>
+            <option value="firebrick">Firebrick</option>
+            <option value="gold">Gold</option>
           </select>
           <textarea onChange={this.handleChange} name="randomImg" cols="50" placeholder="Image URL"/>
         </form>
 
         <h1 style={{color: this.state.color}}>{this.state.topText}</h1>
-        <img alt="fuck" className="widify" src={this.state.randomImg}></img>
+        <img alt="Open image on the web in a new tab and copy and paste the url here" className="widify" src={this.state.randomImg}></img>
         <h1 style={{color: this.state.color}}>{this.state.bottomText}</h1>
         <a href="https://maxjann.com">Jann Software</a>
       </div>

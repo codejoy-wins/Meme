@@ -33,6 +33,7 @@ class App extends React.Component {
             <option value="red">Red</option>
             <option value="orange">Orange</option>
           </select>
+          <textarea onChange={this.handleChange} name="randomImg" cols="50" placeholder="Image URL"/>
         </form>
 
         <h1 style={{color: this.state.color}}>{this.state.topText}</h1>

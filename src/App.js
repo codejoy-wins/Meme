@@ -41,7 +41,7 @@ class App extends React.Component {
         </form>
 
         <h1 style={{color: this.state.color}}>{this.state.topText}</h1>
-        <img alt="Open image on the web in a new tab and copy and paste the url here" className="widify" src={this.state.randomImg}></img>
+        <img style={{maxWidth: "800px" }} alt="Open image on the web in a new tab and copy and paste the url here" className="widify" src={this.state.randomImg}></img>
         <h1 style={{color: this.state.color}}>{this.state.bottomText}</h1>
         <a href="https://maxjann.com">Jann Software</a>
       </div>
